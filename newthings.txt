@@ -1,0 +1,22 @@
+querySelector used instead of get element by if so that even id and class  and element both can be used
+querySelector can be used directly by element name to chaneg the content in the elemnt 
+let sumEl=document.getElementById("sum-el");
+
+let sumEl=document.querySelector("#sum-el");//id
+let sumEl=document.querySelector(".sum-el");//class
+let sumEl=document.querySelector("#sum-el");//element like body
+
+
+use push function to push element into array at the end of array
+cards.push(new_card);
+to remove the element at last
+cards.pop();
+
+use math.random to get random value blw 0 and 1 (not inclusive 1)
+let random_number=Math.random();
+
+Math.floored used to floor the number
+let number=Math.floor(5.7893);
+console.log(number);
+output:5
+  
